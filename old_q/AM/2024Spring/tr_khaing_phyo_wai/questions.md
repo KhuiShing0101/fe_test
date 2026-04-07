@@ -362,7 +362,7 @@ Motion capture → real movement recording ⭐
 Pixel shader → visual effects
 
 
-# brute force attack
+# Q27 Security
 ## Which of the following describes a brute force attack aimed at finding the key of
 symmetric encryption?
 a) Finding the key by observing the ciphertext change when the plaintext is altered by a
@@ -391,5 +391,89 @@ An algebraic attack targets weaknesses in the mathematical structure of the encr
 Brute force: Try every key sequentially.
 Algebraic: Use math relationships to shortcut the search for the key. ( # the weaknes of the encryption method by mathamatically)
 
+# Q28 Security
+## Which of the following is a package of unauthorized programs and tools that has
+functions such as creating a backdoor on a server and hiding the evidence of intrusion inside
+the server?
+a) RFID b) Rootkit c) TKIP d) Web beacon 
+
+## a) RFID (Radio Frequency Identification)
+A technology that uses radio waves to identify and track objects (like ID cards, key cards, or inventory tags) without needing direct contact. ( wireless track credit card casher etc..)
+## b) Rootkit
+A type of malicious software designed to secretly gain control of a computer and hide its presence, often giving hackers deep access to the system. hacker sofs
+## c) TKIP (Temporal Key Integrity Protocol) 
+A security protocol used in older Wi-Fi networks (like WPA) to encrypt data and protect wireless communication, now mostly replaced by stronger methods. ( not physical device its just encryption methods )
+
+## d) Web beacon
+A tiny invisible image or piece of code on a webpage or email used to track user behavior (like whether you opened an email or visited a page).
+
+## so the answer is Rootkit
 
 
+# Q28 Security
+
+Q)Which of the following is a public-key cryptography algorithm whose security depends
+on the difficulty of factoring extremely large numbers into primes?
+
+## 🔐 Encryption algorithms
+
+  a) Symmetric (like AES)
+  One key
+  Encrypt + decrypt
+  Used for securing data
+
+  b) Asymmetric (public/private key)
+  RSA → encryption + signatures
+  Diffie–Hellman → sharing keys securely
+  DSA → digital signatures
+
+## a) AES (Advanced Encryption Standard)
+
+  A fast and secure encryption method used to protect data (like passwords, files, Wi-Fi). It uses the same key to encrypt and decrypt.
+            AES	                              SHA/Hash
+  Symmetric encryption (reversible)	  One-way hash (irreversible)
+  Can decrypt if you have the key	    Cannot get original password from hash
+  Used to secure files, messages	    Used to store passwords safely
+
+## b) DH (Diffie-Hellman)
+  A method that lets two parties securely share a secret key over the internet, even if others are watching.
+
+  A method where two parties use a standard public formula and exchange public values to generate the same secret key, 
+  without sharing their private numbers or the secret key.
+
+  ^ is same with power
+
+  Public:
+  g^a mod p, g^b mod p
+
+  Secret:
+  g^(ab) mod p
+
+
+## c) DSA (Digital Signature Algorithm)
+A technique used to verify that a message is authentic and hasn’t been changed (digital signatures).
+
+## d) RSA (Rivest–Shamir–Adleman)
+A widely used encryption system that uses two keys (public + private) for secure communication and digital signatures.
+
+🔑 One key (symmetric encryption):
+
+AES → uses 1 same key for both encryption and decryption
+
+🔐 Two keys (asymmetric encryption):
+
+RSA → uses 2 keys (public + private)
+
+🤝 Key exchange method (not exactly encryption):
+
+DH (Diffie-Hellman) → used to create/share a key, not to encrypt data itself
+
+✍️ Digital signature (uses key pairs):
+
+DSA → uses 2 keys (public + private) for signing and verification
+
+✅ Summary:
+
+AES → 1 key
+RSA, DSA → 2 keys
+DH → key exchange (helps create keys)

@@ -103,6 +103,8 @@ Post-order: Bottom-up calculations (e.g., total stock).
 If you want, I can also make a tiny visual diagram showing arrows for each traversal so it’s super easy to memorize. Do you want me to do that?
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 # 2.Q6 Flowchart 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 The flowchart below shows an algorithm that determines the sum (i.e. “1 +3+ 5+ … +(2N-1)”) of the first N odd integers from 1 through 2N-1 (where N ≥ 1) and inserts the result into variable x. Which of the following is an expression to be inserted in blank A ? 
@@ -115,9 +117,7 @@ x= the final result
 A = ?
 
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------
 # 3.Q7 Bubble Sort
--------------------------------------------------------------------------------------------------------------------------------------------------------------
 How many swaps are required in bubble sort when N elements in the array are already sorted in reverse order?
 a) N(N-1) ÷ 2 b) N 2 ÷ 2 c) N(N-1) d) N 2
 
@@ -169,7 +169,8 @@ N(N - 1) / 2
         Worst → reverse → max swaps
         Average → in between
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 # 4.Q11 Foolproof
 Which of the following is the design for securing safety and reliability known as “foolproof”? 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -212,7 +213,7 @@ Easy way to remember
 Architecture → fault-tolerant, fail-safe
 Code/UI → robust, foolproof
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # 5.Q15 Hashing
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -306,6 +307,8 @@ Code/UI → robust, foolproof
   Digital signatures
   Blockchain systems (like Bitcoin)
   Message authentication
+
+
 # 6.Q17 Animation Motion
 ##  Keyframe Method
 
@@ -410,7 +413,7 @@ A tiny invisible image or piece of code on a webpage or email used to track user
 ## so the answer is Rootkit
 
 
-# 9.Q28 Security
+# 9.Q28 Encryption Algorythhm
 
 Q)Which of the following is a public-key cryptography algorithm whose security depends
 on the difficulty of factoring extremely large numbers into primes?
@@ -632,9 +635,9 @@ DH → key exchange (helps create keys)
 
 
 
-# 10.Q30 Security ( Attacking) 
+# 10.Q30 Security ( Attacking Poisoning) 
 
-## Attacking
+## Attacking 
 
 Which of the following is the name of an attack where manipulation is employed to place
 a malicious website near the top of the search results on a search engine?
@@ -915,7 +918,8 @@ technical plan
 ✔ Purpose: compare solutions and choose best vendor
 
 
-# Q53. Which of the following is an appropriate computing concept that describes the idea of physical objects, such as devices, vehicles, and buildings, that are connected to the Internet and are able to identify themselves to other devices?
+# 15.Q53 Computer ( Knowledge) 
+Which of the following is an appropriate computing concept that describes the idea of physical objects, such as devices, vehicles, and buildings, that are connected to the Internet and are able to identify themselves to other devices?
 
   ## a) Computer networks 
   A computer network is a system where multiple computers are connected to share resources and information. These connections can be wired or wireless. Networks allow communication through devices like routers and switches. Examples include LAN (Local Area Network) and the Internet.

@@ -119,7 +119,7 @@ the same type.
 d) A router relays frames based on MAC addresses. 
 
 
-# broadcast address
+# 5 broadcast address
 Q24. What is the broadcast address of the network 192.168.128.0/22?
 a) 192.168.128.127 b) 192.168.128.255
 c) 192.168.131.255 d) 192.168.255.255 
@@ -161,3 +161,193 @@ Broadcast = last address of the range
 
 c) 192.168.131.255
 
+# 6 protocol 
+
+Q25. Which of the following is a protocol to gather information on network components to
+manage and troubleshoot the network?
+a) NTP
+b) SMTP
+c) SNMP
+d) TELNET
+
+
+
+## The correct answer is:
+
+c) SNMP
+
+Short notes for each option:
+
+a) NTP (Network Time Protocol)
+Used to synchronize time across devices on a network. It doesn’t gather device information.
+
+b) SMTP (Simple Mail Transfer Protocol)
+Used for sending emails between servers. Not related to network monitoring.
+
+c) SNMP (Simple Network Management Protocol) ✅
+Used to collect and manage information from network devices (like routers, switches, servers). Helps in monitoring, troubleshooting, and managing networks.
+
+d) TELNET
+Used for remote login to another device over a network. Not mainly for gathering network status or monitoring.
+
+# 7 Device Connection
+ Q26. Which of the following is the way of using a phone to supply an Internet connection to
+other devices, such as a tablet or laptop computer over either Wi-Fi or Bluetooth?
+a) Dedicated mobile hotspots
+c) Tethering
+b) PPPoE
+d) UPnP
+
+## a) Dedicated mobile hotspots – A separate device (not your phone) that provides internet to other devices using mobile data.
+
+b) PPPoE (Point-to-Point Protocol over Ethernet) – A network protocol mainly used for DSL internet connections, not for sharing phone internet.
+
+c) Tethering – Using your phone to share its internet with other devices via Wi-Fi, Bluetooth, or USB. ✅
+
+d) UPnP (Universal Plug and Play) – A networking feature that helps devices connect automatically on a network, not for sharing internet.
+
+
+# 8 Work Break Down Structure
+Q41. Which of the following is an appropriate purpose for using a Work Breakdown
+Structure (WBS) in a software development project?
+a) To clarify the sequence relation of activities and understand the critical path that should
+be intensively managed
+b) To hierarchically detail activities and segment them into a manageable scale
+c) To optimize the total cost when there is a trade-off between the duration and the cost of
+development
+d) To represent the schedule of an activity with a horizontal bar, and clarify the start time
+and end time of the activity as well as the progress at the present point in time
+
+## Short explanations:
+
+a) Describes a network diagram / critical path method (CPM) – focuses on activity sequence and critical path.
+
+b) Describes WBS – breaks the project into smaller, manageable parts. ✅
+
+c) Describes cost-time trade-off (crashing) – used to optimize cost vs. duration.
+
+d) Describes a Gantt chart – shows schedule with bars, start/end times, and progress.
+----------------------------------------------------------------------
+b) To hierarchically detail activities and segment them into a manageable scale
+
+
+# 9 Scope Creep
+
+Q42. Which of the following is an appropriate explanation concerning the scope creep in
+project scope management?
+a) A hierarchical decomposition of the total scope of work to be carried out by the project
+team to accomplish the project objectives and create the required deliverables
+b) Any change to the project scope, which almost consistently requires an adjustment to the
+project cost or schedule
+c) The sum of the products, services, and results to be provided as a project
+d) The uncontrolled expansion of product or project scope without adjustments to time,
+cost, and resources
+
+## Short explanations:
+
+a) Describes WBS – breaking work into smaller parts.
+
+b) Describes scope change – controlled changes needing cost/schedule updates.
+
+c) Describes project scope – total deliverables of a project.
+
+d) Describes scope creep – uncontrolled expansion without proper adjustments. ✅
+
+
+d) The uncontrolled expansion of product or project scope without adjustments to time, cost, and resources
+
+# 10 Service Level Management
+Q43.
+Which of the following is a requirement for service level management?
+a) A capacity plan is created, implemented, and maintained while human, technical,
+informational, and financial resources are considered.
+b) A service catalog and SLA are created for the service to be provided, and they are
+agreed upon with the customer.
+c) Costs are monitored and reported against the budget; the financial forecasts are
+reviewed, and costs are managed.
+d) Risks to service continuity and availability of services are assessed and documented.
+
+## Short explanations:
+
+a) Describes capacity management – planning resources.
+
+b) Describes service level management – defining and agreeing on SLAs with customers. ✅
+
+c) Describes financial management – handling costs and budgets.
+
+d) Describes IT service continuity management – managing risks to service availability.
+
+The correct answer is:
+
+b) A service catalog and SLA are created for the service to be provided, and they are agreed upon with the customer.
+
+# 11 Average Number of failer time
+Q44. A device that operates 24 hours a day, 360 days a year has an MTBF value of 1,440
+hours. Which of the following is the average number of failures for this device for 360 days?
+Here, the result is rounded to the closest whole number, and the MTTR of the device is
+ignored.
+a) 3
+b) 6
+c) 9
+d) 12
+
+## explination
+a) 3 – Too low; based on calculation, the device fails more often than this.
+b) 6 – Correct; total hours (8640) ÷ MTBF (1440) = 6 failures. ✅
+c) 9 – Too high; would mean failures happen more frequently than given MTBF.
+d) 12 – Much too high; does not match the MTBF calculation.
+
+
+# 12 system auditor
+Q45. 
+Which of the following is the most appropriate description of a system auditor?
+a) The entire audit interview must be conducted by one (1) system auditor, because
+discrepancies may occur in the record if multiple auditors are involved.
+b) The system auditor must instruct the department being audited to implement
+improvement measures for deficiencies identified during the audit interview.
+c) The system auditor must make an effort to obtain documents and records that support the
+information obtained from the department being audited during the audit interview.
+d) The system auditor must select audit interviewees from administrators who have been an
+auditor within the department being audited.
+
+## explination
+a) Incorrect – Audits can involve multiple auditors; teamwork is common.
+
+b) Incorrect – Auditors identify issues, but do not directly instruct implementation (they recommend).
+
+c) Correct – Auditors must collect evidence (documents/records) to support findings. ✅
+
+d) Incorrect – Interviewees are chosen based on relevance, not whether they were auditors.
+
+-----------------------------------------------------------------------------------------
+
+c) The system auditor must make an effort to obtain documents and records that support the information obtained from the department being audited during the audit interview.
+
+# 13 
+Q56. Which of the following is a technique that can be used to discover useful information and
+relationships from large amounts of customer and market data retained by a company?
+a) Data dictionary
+c) Data mining
+b) Data flow diagram
+d) Data warehouse
+
+## explination
+
+a) Data dictionary – A document that defines data items, their meanings, formats, and usage in a database system.
+
+b) Data flow diagram – A diagram that shows how data moves through a system and how it is processed.
+
+c) Data mining – The process of analyzing large datasets to find useful patterns, trends, and relationships.
+
+d) Data warehouse – A large storage system that collects and stores data from different sources for analysis and reporting.
+
+# 14
+Q57. The relationship between the value “x” of a certain factor in the manufacture of a
+product and the value “y” of a quality characteristic of the product is plotted in the figure
+below. Which of the following is an appropriate interpretation of this figure?
+![Q57](Q57.png)
+
+a) In order to estimate y from x, a quadratic regression coefficient needs to be calculated.
+b) The correlation coefficient between x and y is negative.
+c) The correlation coefficient between x and y is positive.
+d) The regression expression for estimating y from x is the same as that for estimating x from y.

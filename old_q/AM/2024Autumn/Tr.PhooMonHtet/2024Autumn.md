@@ -351,3 +351,127 @@ a) In order to estimate y from x, a quadratic regression coefficient needs to be
 b) The correlation coefficient between x and y is negative.
 c) The correlation coefficient between x and y is positive.
 d) The regression expression for estimating y from x is the same as that for estimating x from y.
+
+# 15
+### Q58
+
+Two (2) types of raw materials **A** and **B** are required to manufacture products **X** and **Y**.  
+
+The quantity of each raw material required per unit and the procurable quantity are listed in the table below.  
+
+When the profit per unit is **$1** for product **X** and **$1.5** for product **Y**, which of the following is the **maximum profit (in dollars)**?
+
+| Raw material | Required quantity per unit of product X | Required quantity per unit of product Y | Procurable quantity |
+|--------------|----------------------------------------|----------------------------------------|---------------------|
+| A            | 2                                      | 1                                      | 100                 |
+| B            | 1                                      | 2                                      | 80                  |
+
+**Options:**
+
+a) 50  
+b) 60  
+c) 70  
+d) 80  
+
+### This is a linear programming problem where you want to maximize profit under resource constraints.
+
+Let:
+
+x = units of product X
+y = units of product Y
+
+Profit function (maximize):
+Profit = 1x+1.5y
+
+Constraints from raw materials:
+
+Material A: 2x+y≤100
+Material B: x+2y≤80
+x,y≥0
+
+The maximum profit occurs at a corner point of the feasible region. Solve the intersection:
+
+{
+2x+y=100
+x+2y=80
+	​
+
+
+Solving:
+
+From equations → x=40,y=20
+
+Profit = 1(40)+1.5(20)=40+30=70
+
+Final Answer: 70 (option c)
+
+# 16 
+Q59. When the selling price of a product is $50 and the fixed costs for production and sales
+are $100,000, which of the following is the number of units to be sold to achieve the desired
+profit of $50,000? Here, the variable cost ratio is 60%.
+a) 5,000
+Q60.
+b) 7,500
+c) 10,000
+d) 12,500
+
+### This is a cost-volume-profit (CVP) problem.
+
+Given:
+
+Selling price per unit = 50
+Variable cost ratio = 60% → Variable cost = 0.6×50=30
+Contribution per unit = 50−30=20
+Fixed cost = 100,000
+Desired profit = 50,000
+
+Formula:
+
+Required units=
+Contribution per unit
+Fixed Cost+Target Profit
+=
+20
+100,000+50,000
+	​
+
+=
+20
+150,000
+	​
+
+=7,500
+
+Final Answer: b) 7,500
+
+# 17 volume license agreement
+Q60.
+b) 7,500
+c) 10,000
+d) 12,500
+Which of the following is an explanation of a volume license agreement?
+a) A contract that establishes standard license conditions and deems that a license
+agreement is automatically established between the rightsholder and the purchaser when
+a certain amount of package is unwrapped within the scope of the standard license
+conditions
+b) A contract that predefines the number of installations and permits the use of software for
+companies or other such purchasers of large amounts of software
+c) A contract that restricts the location of use and permits the use of an unlimited number
+of units or persons within a specific facility
+d) A contract where use is permitted by selecting to agree to the terms of the contract on
+the screen that is displayed when software is downloaded from the Internet
+
+
+### The question asks for the definition of a volume license agreement.
+
+A volume license is used by organizations (like companies or schools) that need many copies of software. Instead of buying individual licenses, they get a contract that covers multiple installations under one agreement.
+
+Correct answer:
+
+b) A contract that predefines the number of installations and permits the use of software for companies or other such purchasers of large amounts of software
+
+Why others are wrong (quickly):
+
+a) describes a shrink-wrap license
+c) describes a site license
+d) describes a click-wrap (or click-through) license

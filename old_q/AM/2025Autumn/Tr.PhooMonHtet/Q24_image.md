@@ -297,7 +297,7 @@ b) A, C, F, G
 c) B, E, H
 d) B, F, G
 
-# 12 
+# 12 PERT ( Program Evaluation and Review Technique )
 Q42. Based on the requirements gathered, the cost of a software project under normal
 conditions is estimated at $70,000. In case of smooth project implementation, some activities
 are not required and the estimated cost is reduced to $50,000; however, in the worst-case
@@ -308,3 +308,241 @@ a) 70,000
 b) 75,000
 c) 80,000
 d) 85,000
+### PERT (Three-Point Estimate) Calculation
+
+**Formula:**
+Expected Cost = (O + 4M + P) / 6
+
+Where:
+- O (Optimistic) = 50,000  
+- M (Most Likely) = 70,000  
+- P (Pessimistic) = 120,000  
+
+**Calculation:**
+Expected Cost = (50,000 + 4 × 70,000 + 120,000) / 6  
+Expected Cost = (50,000 + 280,000 + 120,000) / 6  
+Expected Cost = 450,000 / 6  
+Expected Cost = 75,000  
+
+**Answer:** b) 75,000
+
+# 13 SLA
+Q43. IT services are provided under the conditions in the SLA shown below. What is the
+maximum number of hours of downtime in a month that can satisfy the SLA?
+[Conditions in the SLA]
+‐Number of business days per month: 30
+‐Service hours: 7 AM to 11 PM on business days
+‐Agreed availability: 99% or more
+‐Maintenance time can be ignored.
+a) 1.2
+b) 3.0
+c) 4.8
+d) 7.2
+
+
+### First, calculate the total service hours per month:
+
+Service hours per day = 7 AM to 11 PM = 16 hours
+Number of days = 30
+Total service time=30×16=480 hours
+Apply SLA Availability (99%)
+
+Allowed downtime = 1% of total time
+
+Downtime=1%×480=0.01×480=4.8 hours
+✅ Final Answer:
+
+c) 4.8 hours
+
+# 14 based on ITIL practices
+Q44. Which of the following is an appropriate description of the relationship between a record
+of an incident and a record of a problem in IT service management?
+a) A cross-reference to the incident that triggered the problem is included in the record of
+the problem.
+b) If known errors have been identified at the time of ending the record of the problem, the
+record of the incident that triggered the record of the problem is deleted.
+c) One (1) problem record is always associated with one (1) incident record.
+d) Problems are classified and recorded by a different criterion from the classification of
+incidents.
+
+### Relationship between a record
+of an incident and a record of a problema) ✔️ Correct
+A problem record includes a reference to the incident(s) that triggered its investigation.
+b) ❌ Incorrect
+Incident records are not deleted after problem analysis.
+c) ❌ Incorrect
+One problem can be linked to multiple incidents, not always one-to-one.
+d) ❌ Misleading
+While classification may differ, this does not describe their relationship.
+
+# 15  
+Q45. In the system design phase, when an audit is performed on the control to reduce the risk
+of user requirements not being met, which of the following is a point to be checked?
+a) Whether programming is performed in accordance with the specified conventions and
+standards
+b) Whether the program specifications are created on the basis of the system design
+documents
+c) Whether the test plan is created on the basis of the system test requirements, and the
+manager’s approval of the system operations department is obtained
+d) Whether the user department participates in the review of the system design documents
+
+### Explaination
+The question focuses on system design phase controls aimed at reducing the risk that user requirements are not met.
+
+Key idea:
+
+At the design stage, the most important control is ensuring that user requirements are correctly reflected in the design, which requires user involvement.
+
+Evaluate options:
+a) ❌ Programming standards → relates to development phase, not design
+b) ❌ Program specs based on design → checks consistency, but doesn’t ensure user needs are met
+c) ❌ Test planning → belongs to testing/operations phase
+d) ✔️ Correct
+Having the user department review system design documents ensures the design aligns with actual user requirements
+✅ Final Answer:
+
+d) Whether the user department participates in the review of the system design documents
+
+# Green IT
+Q56.
+Which of the following is an example of Green IT?
+a)Development of a powerful in-house data center
+b)Development of efficient in-house software
+c)Using a desktop PC instead of a thin client laptop
+d)Using web conferencing instead of traveling to meetings
+
+d) ✔️ Correct
+
+# 16 CIO 
+Q57.
+Which of the following is a major role of a CIO?
+a) The CIO creates a plan to optimize the effect of investment on information resources
+across the company to support business strategy when a computerization strategy is
+established.
+b) The CIO gives advice to the information system department by auditing whether the
+information system functions properly in corporate activities.
+c) The CIO receives queries about the information system, reports on the problems, and
+gives specific instructions to the department in charge to ensure optimal management of
+the company-wide information system.
+d) The CIO understands the status of information system development and operation and
+provides specific instructions on improvements to ensure that the company-wide
+information system functions optimally.
+
+
+A CIO (Chief Information Officer) is responsible for aligning IT strategy with overall business strategy and ensuring investments in information systems deliver value.
+
+Evaluate options:
+
+
+a) ✔️ Correct
+This describes the core CIO role: planning and optimizing IT investments to support business strategy.
+
+
+b) ❌ This is more like an auditor’s role, not CIO
+
+
+c) ❌ Describes operational support/helpdesk-type responsibilities
+
+
+d) ❌ Focuses on operational management, closer to IT manager role
+
+
+
+✅ Final Answer:
+a) The CIO creates a plan to optimize the effect of investment on information resources across the company to support business strategy when a computerization strategy is established.
+
+# 17 OC curve
+Q58. The horizontal and vertical axes of an Operating Characteristic (OC) curve in quality
+management generally represent the percent defective of a lot and the success rate of a lot,
+respectively. Samples of size n are extracted from a lot of size N. When the number of
+defective samples is less than or equal to the pass quantity C, the lot is considered to have
+passed; otherwise, it is considered to have failed.
+Which of the following is a diagram that shows the trend of change in the OC curve when
+N and n are fixed and C takes the values 0, 1, and 2?
+
+
+![alt text](Q24.png)
+For an OC (Operating Characteristic) curve:
+
+The x-axis = percent defective
+The y-axis = probability of acceptance (success rate)
+Key concept:
+
+As the acceptance number C increases:
+
+The inspection becomes less strict
+More lots are accepted
+The OC curve shifts upward (higher acceptance probability for the same defect rate)
+
+So:
+
+C = 0 → most strict → lowest curve
+C = 1 → middle
+C = 2 → least strict → highest curve
+Correct diagram:
+
+Look for the graph where curves are ordered:
+
+C=0 (lowest),C=1 (middle),C=2 (highest)
+
+# 18  Company Knowledge
+Q59. Which of the following is a financial statement that represents the assets, liabilities, and
+net assets of a company at a certain point in time and indicates the financial situation of the
+company?
+a) Balance sheet
+c) Statement of Cash Flows
+b) Income statement
+d) Statement of Changes in Equity
+
+### The question is asking:
+
+👉 Which financial statement shows what a company owns and owes at a specific point in time?
+
+Key meaning of the question:
+Assets → what the company owns (cash, equipment, etc.)
+Liabilities → what the company owes (loans, debts)
+Net assets (equity) → the company’s value after debts
+
+👉 And importantly: “at a certain point in time” (like a snapshot)
+
+Evaluate options:
+a) Balance sheet ✔️
+Shows assets, liabilities, and equity at a specific date (snapshot of financial position)
+b) Income statement ❌
+Shows profit/loss over a period of time
+c) Statement of Cash Flows ❌
+Shows cash movement over time
+d) Statement of Changes in Equity ❌
+Shows how equity changes over time
+Simple analogy:
+Balance Sheet = Photo 📸 (at one moment)
+Others = Video 🎥 (over a period)
+✅ Final Answer:
+
+# Agreement of sofs Lincesen of sharp-wrap
+
+Q60. For a shrink-wrap license, which of the following is the point in time when a software
+license agreement is concluded?
+a) At the time the purchased software is paid for
+b) At the time the CD-ROM containing the software is received
+c) At the time the DVD-ROM package containing the software is opened
+d) At the time the software is installed on a PC
+
+### This question is about when a shrink-wrap license becomes legally valid.
+
+Key idea:
+
+A shrink-wrap license means:
+👉 You agree to the license when you open the package (breaking the seal)
+
+Evaluate options:
+a) ❌ Paying doesn’t mean you agreed to the license yet
+b) ❌ Receiving the product ≠ agreement
+c) ✔️ Correct
+Opening the package = you accept the license terms inside
+d) ❌ Installation is too late (agreement already happened earlier)
+Simple explanation:
+Box is sealed → you haven’t agreed yet
+You open it → you accept the terms
+
+
